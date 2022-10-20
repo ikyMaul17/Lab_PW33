@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+        <h1>Javascript</h1>    
+    </div>
+    <p id="demo"></p>
+    <p id="Array"></p>
+
+    <script>
+        const time = new Date().getHours();
+        let greeting;
+        if(time <10){
+            greeting ="Selamat Pagi";
+        }
+         else if (time<20){
+          greeting ="Selamat sore";
+            }
+        else {
+            greeting ="Selamat Malama";
+        }
+        
+        const fruits =["Apel","Zaitun","Kelapa","Mangga","Nanas","Anggur"];
+        fruits.sort();
+        let text ="";
+        for(let i=0; i<fruits.length; i++){
+                text += fruits[i] + "<br>";
+        }
+        document.getElementById("demo").innerHTML = text;
+        document.write(fruits);
+    </script>
+
+</body>
+</html>

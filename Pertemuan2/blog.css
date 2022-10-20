@@ -1,0 +1,40 @@
+
+body{
+    background-color: aquamarine;
+    font-family: serif;
+    padding: 10px;
+
+}
+*{
+    box-sizing: border-box;
+}
+.header{
+    padding:  20px;
+    text-align: center;
+    background-color: aliceblue;
+}
+.header h1{
+    font-size: 50px;
+}
+.navigasi{
+    background-color:aqua;
+    overflow: hidden;
+}
+.navigasi a{
+    text-decoration: none;
+    float: left;
+    display: block;
+    text-align:  center;
+    padding: 15px;
+}
+.navigasi a :hover{
+    background-color: aliceblue;
+}
+.left-colom{
+    float: left;
+    width: 75%;
+}
+.right-colom{
+    float: left;
+    width: 25%;
+}
